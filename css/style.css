@@ -15,3 +15,47 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* HEADER */
+header .container {
+    display: flex;
+}
+header .container > * {
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+header #logo {
+    width: 25%;
+}
+header #navbar {
+    width: 50%;
+    justify-content: center;
+
+}
+header #login {
+    width: 25%;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug header {
+    background-color: #add8e6;
+}
+.debug header .container > * {
+    background-color: #daa520;
+    border: 1px solid black;
+}
