@@ -20,7 +20,7 @@ html {
 header .container {
     display: flex;
 }
-header .container > * {
+header #top .container > * {
     margin: 10px 0;
     padding: 0 10px;
     height: 40px;
@@ -41,6 +41,14 @@ header #login {
 }
 
 
+header #bottom .container {
+    justify-content: center;
+}
+header #header-bottom-section {
+    margin: 50px 0;
+    width: 70%;
+    height: 300px;
+}
 
 
 
@@ -52,10 +60,16 @@ header #login {
 
 /* DEBUG */
 
-.debug header {
+.debug header #top{
     background-color: #add8e6;
 }
-.debug header .container > * {
+.debug header #top .container > * {
     background-color: #daa520;
     border: 1px solid black;
+}
+.debug header #bottom {
+    background-color: #00008b;
+}
+.debug header #bottom #header-bottom-section {
+    background-color: #ee82ee;
 }
